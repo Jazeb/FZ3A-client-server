@@ -1,0 +1,51 @@
+{
+	"name": "fz3a-backend",
+	"version": "1.0.0",
+	"description": "Backend for fz3a project",
+	"main": "server.js",
+	"scripts": {
+		"test": "jest",
+		"start": "nodemon server/server.js",
+		"dev": "nodemon server/server.js development"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@gitlab.com/co_mean/fz3a-backend.git"
+	},
+	"author": "Jazeb",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://gitlab.com/co_mean/fz3a-backend/issues"
+	},
+	"homepage": "https://gitlab.com/co_mean/fz3a-backend#readme",
+	"dependencies": {
+		"bcrypt": "^5.0.0",
+		"body-parser": "^1.19.0",
+		"btoa": "^1.2.1",
+		"cluster": "^0.7.7",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"email-validator": "^2.0.4",
+		"express": "^4.17.1",
+		"express-fileupload": "^1.2.0",
+		"fcm-node": "^1.5.2",
+		"http-error": "0.0.6",
+		"jest": "^26.6.3",
+		"jsonwebtoken": "^8.5.1",
+		"lodash": "^4.17.20",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.2",
+		"mysql": "^2.18.1",
+		"mysql2": "^2.2.5",
+		"nodemailer": "^6.4.14",
+		"nodemon": "^2.0.5",
+		"passport": "^0.4.1",
+		"passport-jwt": "^4.0.0",
+		"passport-local": "^1.0.0",
+		"randomstring": "^1.1.5",
+		"redis": "^3.0.2",
+		"request": "^2.88.2",
+		"sequelize": "^6.3.5",
+		"socket.io": "2.3.0"
+	}
+}
